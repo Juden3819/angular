@@ -9,4 +9,6 @@ export class MyCardComponent{
   @Input() title: string;
   @Input() subtitle: string;
   @Input() matCardClass: string;
+  @Input() matTitleClass: string;
+  @Input() matSubtitleClass: string;
 }

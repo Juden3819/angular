@@ -1,3 +1,9 @@
-p {
-  font-family: Lato;
+.matClass{
+  width: 400px;
+}
+.titleClass{
+  color: red;
+}
+.subTitle{
+  color: yellow;
 }

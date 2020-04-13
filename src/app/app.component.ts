@@ -8,4 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent  {
   name = 'Angular';
   myClassForMatCardField = "myClassForMatCardField"
+  title = 'title';
+  subtitle = 'subtitle';
+  matClass = "matClass";
+  titleClass = "titleClass";
+  subtitleClass = "subtitleClass";
+
 }

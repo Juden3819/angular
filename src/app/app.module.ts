@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
-import {MyCardComponent} from './mycard/my-card.component'
+import {MyCardComponent} from './mycard/my-card.component';
+import {MatCardModule} from '@angular/material/card';
+
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
+  imports:      [ BrowserModule, FormsModule, MatCardModule ],
   declarations: [ AppComponent, HelloComponent, MyCardComponent ],
   bootstrap:    [ AppComponent ]
 })
